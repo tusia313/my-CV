@@ -52,9 +52,9 @@ header {
 }
 
 header .description {
-    width: 80%;
-    line-height: 1.2em;
-    padding-right: 2rem;
+    width: 70%;
+    line-height: 1.4em;
+    padding: 0 2rem;
 }
 
 header .profile img{
@@ -98,11 +98,6 @@ table td{
     width: 25%;
     font-weight: bold;
  }
- 
- aside.confidentialy_clause {
-    padding-top: 1rem ;
-    font-size: 0.7em;
- }
 
 section.right_site {
     width: 30%;
@@ -113,3 +108,10 @@ section.right_site {
 ul {
     list-style-type: none;
 }
+
+aside.confidentialy_clause {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    font-size: 0.6em;
+ }
