@@ -8,7 +8,7 @@ body {
     background-color: lavenderblush;
     color: blue;
     font-family: 'Source Sans 3', sans-serif;
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 main {
@@ -100,9 +100,12 @@ table td{
  }
 
 section.right_site {
-    width: 30%;
-    margin: 0 auto;
-    padding-left: 2rem;
+    width: 27%;
+    padding: 3rem 0 0 3rem;
+}
+
+section.right_site table {
+    text-align: right;
 }
 
 ul {
@@ -113,5 +116,5 @@ aside.confidentialy_clause {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 1rem;
-    font-size: 0.6em;
+    font-size: 0.8em;
  }
