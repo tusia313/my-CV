@@ -27,12 +27,13 @@ nav {
 nav .info {
     color:aliceblue;
     background-color: blue;
-    padding: 0.6em 2em;
+    padding: 0.5em 2em;
     border-radius: 2em;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 0.8em;
+    font-weight: bold;
     letter-spacing: 0.1em;
+    font-size: 0.8em;
+    align-items: center;
 }
 
 nav .info a{
@@ -54,12 +55,13 @@ header {
 header .description {
     width: 70%;
     line-height: 1.4em;
-    padding: 0 2rem;
+    padding: 2rem 2rem 0 2rem;
+    margin-right: 1rem;
 }
 
 header .profile img{
     width: 100%;
-    vertical-align: auto;
+    /* vertical-align: auto; */
     border-radius: 50%;
     border: 5px solid blue;
 }
