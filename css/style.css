@@ -16,6 +16,11 @@ main {
     width: 2480px ;
 }
 
+h2 {
+    font-family: 'Source Serif 4', serif;
+    color: lightskyblue;
+} 
+
 nav {
     width: 90%;
     margin: auto;
@@ -24,25 +29,25 @@ nav {
     justify-content: space-between;
     padding: 1em 0;
 }
+
 nav .info {
-    color:aliceblue;
-    background-color: blue;
-    padding: 0.5em 2em;
+    color: white;
+    background-color: lightskyblue;
+    padding: 0.6em 1.3em;
     border-radius: 2em;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 0.9em;
     letter-spacing: 0.1em;
-    font-size: 0.8em;
-    align-items: center;
 }
 
 nav .info a{
     text-decoration: none;
-    color:aliceblue;
+    color:white;
 }
 
 nav .info a:hover {
-    color: lightblue;
+    color: lavender;
 }
 
 header {
@@ -59,20 +64,16 @@ header .description {
     margin-right: 1rem;
 }
 
+header .description h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 2.5em;
+    color: rgba(119, 136, 153, 0.7);
+}
+
 header .profile img{
     width: 100%;
     /* vertical-align: auto; */
     border-radius: 50%;
-    border: 5px solid blue;
-}
-h1 {
-    font-family: 'Source Serif 4', serif;
-    font-size: 2.5em;
-    text-transform: uppercase;
-}
-
-h2 {
-    font-family: 'Source Serif 4', serif;
 }
 
 #section_container {
@@ -93,7 +94,7 @@ section.left_site table {
 
 table td{
     vertical-align: top;
-    padding: 0.3rem;
+    padding: 0.5rem;
  }
 
  table .date {
