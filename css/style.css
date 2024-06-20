@@ -55,6 +55,7 @@ header {
     display: flex;
     margin: 0 auto;
     align-items: center;
+    justify-content: center;
 }
 
 header .description {
@@ -62,6 +63,7 @@ header .description {
     line-height: 1.4em;
     padding: 2rem 2rem 0 2rem;
     margin-right: 1rem;
+    text-align: justify;
 }
 
 header .description h1 {
@@ -73,6 +75,7 @@ header .description h1 {
 header .profile img{
     width: 100%;
     /* vertical-align: auto; */
+    margin-top: 100px;
     border-radius: 50%;
 }
 
@@ -116,8 +119,7 @@ ul {
 }
 
 aside.confidentialy_clause {
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-    font-size: 0.8em;
+    padding-top: 70px;
+    width: 98%;
+    font-size: 0.7em;
  }
