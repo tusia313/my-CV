@@ -27,7 +27,7 @@ h2 {
 } 
 
 nav {
-    width: 90%;
+    width: 98%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -60,14 +60,13 @@ header {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 header .description {
-    width: 70%;
+    width: 60%;
     line-height: 1.4em;
-    padding: 2rem 2rem 0 2rem;
-    margin-right: 1rem;
     text-align: justify;
 }
 
@@ -77,9 +76,12 @@ header .description h1 {
     color: rgba(119, 136, 153, 0.7);
 }
 
+header .profile {
+    margin: auto;
+}
+
 header .profile img{
-    width: 100%;
-    /* vertical-align: auto; */
+    width: 120%;
     margin-top: 100px;
     border-radius: 50%;
 }
